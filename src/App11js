@@ -1,0 +1,23 @@
+import React from "react";
+
+function Food({ name, price }) {
+  return (
+    <h2>
+      Here is {name}. It's {price}
+    </h2>
+  );
+}
+
+function App() {
+  return (
+    <div>
+      <h1>Hello!</h1>
+      <Food name="pasta" price="4$" />
+      <Food name="stake" price="4.5$" />
+      <Food name="bread" price="2$" />
+      <Food name="wine" price="10$" />
+    </div>
+  );
+}
+
+export default App;
